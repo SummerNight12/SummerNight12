@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <header>
+        Trivia
+    </header>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="trivia.html">Trivia</a></li>
+        </ul>
+    </div>
+
+    <body>
+        <h1>Byte-to-other-unit calculator</h1>
+
+        <form id="byte-calc" style="white-space: pre-line">
+            <label for="byte-count">Byte(s): </label>
+            <input id="byte-count" name="byte-count" type="number" required>
+
+            <label for="bytesel">Select which type of conversion you want to do:</label>
+            <select name="bytetype" id="bytetype">
+                <option value="bit">Bit</option>
+                <option value="kilobyte">Kilobyte (KB)</option>
+                <option value="megabyte">Megabyte (MB)</option>
+                <option value="gigabyte">Gigabyte (GB)</option>
+            </select> 
+
+            <button type="onclick" onclick="byteCalculate()">Send</button>
+        </form>
+
+        <p id="converted-num"></p>
+    </body>
+
+    <script src="script.js"></script>
+</html>

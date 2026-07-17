@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <header>
+    My Personal Website
+  </header>
+
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="trivia.html">Trivia</a></li>
+    </ul>
+  </div>
+
+  <body>
+    <div class="container">
+      <div bgcolor="lightblue">
+        <strong>Useful links</strong>
+        <ul>
+          <li>My GitHub profile: <a href="https://github.com/SummerNight12">https://github.com/SummerNight12</a></li>
+          <li>Vogons forum for retrocomputing: <a href="https://vogons.org">https://vogons.org</a></li>
+          <li>A nicer search engine than Google: <a href="https://duckduckgo.com">https://duckduckgo.com</a></li>
+        </ul>
+      </div>
+      <div style="white-space: pre-line" bgcolor="lightgray">
+        <strong>About me</strong>
+        <p>I'm a tech enthusiast who loves to tinker with computers, and especially have an interest in old computers from the DOS days, which would consist of Pentium-era PCs. More information can be found in the useful links I've provided.</p>
+        <p>Other things I do include music arrangements and composition.</p>
+
+        <img src="img/NT-4-UI-1662722467.png" width="100%">
+        <p>Image courtesy of Da Costa, Andre. from Groovy Post. <i>Da Costa, Andre. “Looking Back at Windows NT 4 on Its 20Th Anniversary.” groovyPost, Aug. 2016, https://www.groovypost.com/news/windows-nt-4-20-year-anniversary/. Accessed 17 July 2026.</i></p>
+      </div>
+
+      <div bgcolor="yellow">
+        <strong>Contact me</strong>
+        <form style="white-space: pre-line">
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email: </label>
+          <input id="email" name="email" type="text" required>
+
+          <label for="query">Query: </label>
+          <textarea rows=5 cols=23 name="query">Enter query here</textarea>
+
+          <label for="query">Receive verbose notifications?</label>
+          <input type="radio" name="query">Yes
+          <input type="radio" name="query">No
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      </div>
+    </div>
+    
+    <footer>
+        <p style="text-align: center">This website is probably compatible with Windows 9x with RetroZilla.</p>
+    </footer>
+  </body>
+</html>

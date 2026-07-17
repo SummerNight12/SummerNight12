@@ -1,0 +1,67 @@
+html {
+  background-color: #ffd0d0;
+}
+
+body {
+  font-family: "Arial";
+  text-shadow: 1px 1px white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+  color: blue;
+  text-align: center;
+  box-shadow: 5px 5px gray;
+}
+
+div.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+div.navbar ul li a {
+  display: block;
+  color: black;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+div.navbar ul li a:hover {
+  background-color: lightgray;
+}
+
+/* Table formatting */
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-color: white;
+}
+
+/* Other stuff */
+
+.container {
+  display: flex;
+  background-color: #3498DB;
+  box-shadow: 5px 5px 0px black
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
